@@ -1,0 +1,22 @@
+{
+  "name": "jsonadminanduser",
+  "version": "1.0.0",
+  "description": "JSON Admin And JSON user",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadhoseinmoradi/mohammadHosein_Moradi_HW13_Maktab45.git"
+  },
+  "author": "mohammad hosein moradi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadhoseinmoradi/mohammadHosein_Moradi_HW13_Maktab45/issues"
+  },
+  "homepage": "https://github.com/mohammadhoseinmoradi/mohammadHosein_Moradi_HW13_Maktab45#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

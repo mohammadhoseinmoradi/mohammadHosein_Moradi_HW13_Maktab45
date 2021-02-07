@@ -1,0 +1,36 @@
+body {
+    background-color: goldenrod;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100px 500px 0px 600px;
+    padding: 20px
+}
+
+#form {
+    width: 35%;
+    background-color: rgb(207, 198, 186, 0.5);
+    margin: auto;
+}
+
+.inputStyle {
+    background-color: aquamarine;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#btnSubmit {
+    width: 50%;
+    height: 20px;
+    background-color: green;
+    color: white;
+    margin-left: 130px;
+}
