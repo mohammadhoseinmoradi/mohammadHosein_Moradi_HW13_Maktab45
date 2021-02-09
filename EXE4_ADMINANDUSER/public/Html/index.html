@@ -12,13 +12,42 @@
 
 <body>
     <p>Welcome to Home</p>
-    <div id="form">
+    <!-- <div id="form">
         <label for="UserName">UserName : </label>
         <input type="text" name="UserName" placeholder="UserName" id="UserName" class="inputStyle">
         <label for="UserName">Password : </label>
         <input type="password" name="password" placeholder="Password" id="password" class="inputStyle">
         <button type="submit" id="btnSubmit">Submit</button>
+    </div> -->
+
+
+
+    <div class="form-control">
+        <input id="UserName" class="input-field" type="text" required />
+        <label>UserName</label>
+        <p id="necessaryUserName" class="necessary">necessary !!!</p>
     </div>
+
+    <div class="form-control">
+        <input id="password" type="text" required />
+        <label>Password</label>
+        <p id="necessaryPassword" class="necessary">necessary !!!</p>
+    </div>
+    <div class="form-control">
+        <button type="submit" class="input-field" id="btnSubmit">Submit</button>
+
+        <!-- <div class="button">
+            <div class="container">
+                <div class="tick">
+                </div>
+            </div>
+        </div> -->
+
+
+
+    </div>
+
+
 
     <script src="/EXE4_ADMINANDUSER/public/js/main.js"></script>
 </body>

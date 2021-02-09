@@ -13,11 +13,18 @@ app.get('/', (req, res) => {
 app.get('/EXE4_ADMINANDUSER/public/js/main.js', (req, res) => {
     console.log(11111)
     res.sendFile(path.join(__dirname, 'public/js/main.js'))
-
+})
+app.get('/EXE4_ADMINANDUSER/public/js/admin.js', (req, res) => {
+    console.log(11111)
+    res.sendFile(path.join(__dirname, 'public/js/admin.js'))
 })
 app.get('/EXE4_ADMINANDUSER/public/Css/style.css', (req, res) => {
     console.log(22222)
     res.sendFile(path.join(__dirname, 'public/Css/style.css'));
+})
+app.get('/EXE4_ADMINANDUSER/public/Css/admin.css', (req, res) => {
+    console.log(22222)
+    res.sendFile(path.join(__dirname, 'public/Css/admin.css'));
 })
 
 // ---------------------------------------------------------------------
