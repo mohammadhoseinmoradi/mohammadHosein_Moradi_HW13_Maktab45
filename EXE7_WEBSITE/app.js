@@ -75,16 +75,60 @@ app.get('/EXE7_WEBSITE/public/Js/Contact.js', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/Js/Contact.js'));
 })
 app.get('/EXE7_WEBSITE/public/Css/Contact.css', (req, res) => {
-        res.sendFile(path.join(__dirname, '/public/Css/Contact.css'));
-    })
-    // -----------------------------------------------------------------------------------------------------
-    // --------------------------------------- REQUEST MOREINFORMATIONS KALA PAGE ---------------------------
-app.get('/EXE7_WEBSITE/public/Js/moreinfo.js', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/Js/moreinfo.js'));
+    res.sendFile(path.join(__dirname, '/public/Css/Contact.css'));
 })
-app.get('/EXE7_WEBSITE/public/Css/moreinfo.css', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/Css/moreinfo.css'));
+
+// -----------------------------------------------------------------------------------------------------
+// --------------------------------------- REQUEST KALAs PAGE  js and css--------------------------------
+//  --------------------------------------------------------------------------------------------------
+// --------------------------------------------- kala 1 -------------------------------------------------
+app.get('/EXE7_WEBSITE/public/Js/kala1.js', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Js/kala1.js'));
 })
+app.get('/EXE7_WEBSITE/public/Css/kala1.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Css/kala1.css'));
+})
+
+// ---------------------------------------------kala 2 ---------------------------------------------------
+app.get('/EXE7_WEBSITE/public/Js/kala2.js', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Js/kala2.js'));
+})
+app.get('/EXE7_WEBSITE/public/Css/kala2.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Css/kala2.css'));
+})
+
+// -------------------------------------------- kala 3 ------------------------------------------------------
+app.get('/EXE7_WEBSITE/public/Js/kala3.js', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Js/kala3.js'));
+})
+app.get('/EXE7_WEBSITE/public/Css/kala3.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Css/kala3.css'));
+})
+
+// -------------------------------------------- kala 4 -----------------------------------------------------
+app.get('/EXE7_WEBSITE/public/Js/kala4.js', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Js/kala4.js'));
+})
+app.get('/EXE7_WEBSITE/public/Css/kala4.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Css/kala4.css'));
+})
+
+// ------------------------------------------- kala 5 -----------------------------------------------------------
+app.get('/EXE7_WEBSITE/public/Js/kala5.js', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Js/kala5.js'));
+})
+app.get('/EXE7_WEBSITE/public/Css/kala5.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Css/kala5.css'));
+})
+
+// ------------------------------------------ kala 6 ----------------------------------------------------------
+app.get('/EXE7_WEBSITE/public/Js/kala6.js', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Js/kala6.js'));
+})
+app.get('/EXE7_WEBSITE/public/Css/kala6.css', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/Css/kala6.css'));
+})
+
 
 
 

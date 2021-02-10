@@ -62,7 +62,7 @@ $(document).ready(function() {
                                 <div class="product-options">
                                 <strong>SIZES</strong>
                                 <span>XS, S, M, L, XL, XXL</span>
-                                <button class="btnMoreInfo" ><a class="btnMoreInfo" href="/kala/${data[i].id}">More Info</a></button>
+                                <button class="btnMoreInfo" ><a class="btnMoreInfo" href="/kala/${data[i].id-1}">More Info</a></button>
                             </div>            
 
                             </div>      
